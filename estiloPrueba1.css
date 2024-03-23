@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+}
+h1{
+    color:darkblue;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+    margin-left: 30px;
+    flex-flow: 1;
+}
+nav{
+    width:50%;
+    flex: 1;
+}
+
+ul{
+    list-style-type: none;
+    position: relative;
+}
+li{
+    background-color: white;
+    color:red;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: inherit;
+    font-size: 16pt;
+}
+
+p{
+    color: blue;
+    margin-top: 20px;
+    margin-left: 30 px;
+    font-size: 14pt;
+    font-style: italic;
+}
+.bl{
+    height: 100%;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
